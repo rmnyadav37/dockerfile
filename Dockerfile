@@ -1,4 +1,4 @@
 FROM ubuntu
-RUN apt-get update -y
-RUN apt-get install docker -y
-RUN service docker start
+RUN sudo apt-get update -y
+RUN sudo apt-get install docker -y
+RUN sudo service docker start
